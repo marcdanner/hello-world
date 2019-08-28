@@ -32,32 +32,31 @@ wshshell.sendkeys "g"
 WScript.sleep 200
 wshshell.sendkeys " "
 WScript.sleep 200
-wshshell.sendkeys "H"
+wshshell.sendkeys "S"
+WScript.sleep 200
+wshshell.sendkeys "i"
 WScript.sleep 200
 wshshell.sendkeys "e"
 WScript.sleep 200
-wshshell.sendkeys "r"
-WScript.sleep 200
-wshshell.sendkeys "r"
-WScript.sleep 200
 wshshell.sendkeys " "
-wshshell.sendkeys "D"
-WScript.sleep 200
-wshshell.sendkeys "u"
-WScript.sleep 200
-wshshell.sendkeys "e"
-WScript.sleep 200
-wshshell.sendkeys "r"
-WScript.sleep 200
-wshshell.sendkeys "r"
-WScript.sleep 200
-wshshell.sendkeys " "
-WScript.sleep 200
-wshshell.sendkeys "I"
 WScript.sleep 200
 wshshell.sendkeys "h"
+  WScript.sleep 200
+wshshell.sendkeys "a"
 WScript.sleep 200
-wshshell.sendkeys "r"
+wshshell.sendkeys "b"
+WScript.sleep 200
+wshshell.sendkeys "e"
+WScript.sleep 200
+wshshell.sendkeys "n"
+WScript.sleep 200
+  wshshell.sendkeys " "
+WScript.sleep 200
+  wshshell.sendkeys "d"
+WScript.sleep 200
+  wshshell.sendkeys "e"
+WScript.sleep 200
+wshshell.sendkeys "n"
 WScript.sleep 200
 wshshell.sendkeys " "
 WScript.sleep 200
