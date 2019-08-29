@@ -1,4 +1,4 @@
-Dim ObjShell, Shell, Ton, Sapi
+Dim ObjShell, Shell, Ton, Sapi, geld
 Set ObjShell = CreateObject("WScript.Shell")
 ObJShell.Popup "5","1",""
 ObJShell.Popup "4","1",""
@@ -10,6 +10,8 @@ Ton = chr(007)
 Shell.Run "cmd /c @echo " & Ton, 0
 Set Sapi = Wscript.CreateObject("SAPI.SpVoice")
 Sapi.speak "Einarmiger Bandit wird gestartet"
+			Sapi.speak "Mit wie viel wollen sie spielen?"
+			
 m = 1000
 
 x = MsgBox("Herzlich Willkommen zu Casino.vbs!" & vbCrLf & "Ihr aktuelles Geld: 1 000 €",1+48,"Virtual Casino")
@@ -70,4 +72,3 @@ else
 	f = 1
 end if
 Sapi.speak "Danke fürs Spielen"
-Sapi.speak "Sie haben Post vom Arbeitsamt sie mussen 10000€ zurück zahlen."
